@@ -13,9 +13,6 @@ import numpy as np
 import joblib
 from sklearn import datasets
 
-st.set_page_config(page_title="Iris Classifier App", layout="wide")
-st.title ("Tes")
-
 # Load saved model with joblib
 model = joblib.load('gaussian_nb.pkl')
 
@@ -29,7 +26,7 @@ iris_df['target'] = iris.target
 iris_df['target_name'] = iris_df['target'].apply(lambda x: iris.target_names[x])
 
 # Streamlit setup
-
+st.set_page_config(page_title="Iris Classifier App", layout="wide")
 
 # Sidebar for navigation
 pages = ['Data Description', 'Prediction', 'About']
