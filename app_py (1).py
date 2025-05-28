@@ -13,7 +13,7 @@ import numpy as np
 import joblib
 from sklearn import datasets
 
-st.set_page_config(page_title="dashboard")
+st.set_page_config(page_title="Iris Classifier App", layout="wide")
 st.title ("Tes")
 
 # Load saved model with joblib
