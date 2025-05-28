@@ -13,7 +13,7 @@ import numpy as np
 import joblib
 from sklearn import datasets
 
-st.set_page_config(page_title="halaman2")
+st.set_page_config(page_title="dashboard")
 st.title ("Tes")
 
 # Load saved model with joblib
